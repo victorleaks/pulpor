@@ -1,0 +1,39 @@
+body{
+    background-color: #202020;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h3, .App{
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+button{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightskyblue;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+input{
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
